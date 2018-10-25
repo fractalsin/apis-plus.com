@@ -1,0 +1,309 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+}
+.first_section {
+    height: 105vh;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url("../images/family3.jpg");
+    background-position: 40% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header {
+    font-weight: 700;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    min-height: 45px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    align-items: center;
+}
+.left {
+    flex-grow: 1;
+    color: white;
+    /* border: 1px solid green; */
+    font-weight: 700;
+    font-style: italic;
+}
+.right {
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-grow: 1;
+}
+.right:hover {
+    cursor: pointer;
+}
+li {
+    -webkit-transition: background-color, .3s ease-out;
+    -moz-transition: background-color, .3s ease-out;
+    -o-transition: background-color, .3s ease-out;
+    transition: background-color, .3s ease-out;
+}
+li:hover {
+    color: orange;
+    background-color: #143B65;
+    box-shadow: 6px 6px green;
+}
+a {
+    display: block;
+    padding: 20px 30px;
+}
+.ul_top {
+    display: flex;
+    flex-flow: row wrap;
+}
+span {
+    padding: 1px;
+}
+img {
+    height: 150px;
+}
+.space-between {
+
+}
+div {
+
+}
+.empty {
+    height: 3vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+h1, h2 {
+    line-height: 2;
+}
+h1 {
+    /* border: 1px solid pink; */
+    font-size: 2.75rem;
+    padding-top: 50px;
+}
+h2 {
+    /* border: 1px solid pink; */
+    font-size: 1.5rem;
+    line-height: 2.75;
+}
+h3 {
+    /* border: 1px solid pink; */
+    line-height: 2.70;
+    font-size: 1.1rem;
+}
+button {
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    /* border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; */
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 20px;
+    border: 4px solid white;
+    background-color: inherit;
+    -webkit-transition: background-color .4s ease-out;
+    -moz-transition: background-color .4s ease-out;
+    -o-transition: background-color .4s ease-out;
+    transition: background-color .4s ease-out;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    text-shadow: 1px 1px white;
+    cursor: pointer;
+}
+
+.ul_bottom {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.triple_menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: skyblue;
+}
+.tab1, .tab2, .tab3 {
+    font-family: 'Lato', sans-serif;
+    text-shadow: 1px 1px black;
+    flex-grow: 1;
+    color: white;
+    text-align: center;
+    width: 150px;
+    background-color: skyblue;
+    padding-bottom: 17px;
+}
+.tab1 {
+    background: rgba(26,77,4,1);
+    background: -moz-linear-gradient(45deg, rgba(26,77,4,1) 0%, rgba(24,135,28,1) 59%, rgba(7,84,9,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(26,77,4,1)), color-stop(59%, rgba(24,135,28,1)), color-stop(100%, rgba(7,84,9,1)));
+    background: -webkit-linear-gradient(45deg, rgba(26,77,4,1) 0%, rgba(24,135,28,1) 59%, rgba(7,84,9,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(26,77,4,1) 0%, rgba(24,135,28,1) 59%, rgba(7,84,9,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(26,77,4,1) 0%, rgba(24,135,28,1) 59%, rgba(7,84,9,1) 100%);
+    background: linear-gradient(45deg, rgba(26,77,4,1) 0%, rgba(24,135,28,1) 59%, rgba(7,84,9,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4d04', endColorstr='#075409', GradientType=1 );
+}
+.tab2 {
+    background: rgba(15,56,158,1);
+    background: -moz-linear-gradient(45deg, rgba(15,56,158,1) 0%, rgba(4,26,82,1) 27%, rgba(46,78,158,1) 69%, rgba(14,39,103,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(15,56,158,1)), color-stop(27%, rgba(4,26,82,1)), color-stop(69%, rgba(46,78,158,1)), color-stop(100%, rgba(14,39,103,1)));
+    background: -webkit-linear-gradient(45deg, rgba(15,56,158,1) 0%, rgba(4,26,82,1) 27%, rgba(46,78,158,1) 69%, rgba(14,39,103,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(15,56,158,1) 0%, rgba(4,26,82,1) 27%, rgba(46,78,158,1) 69%, rgba(14,39,103,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(15,56,158,1) 0%, rgba(4,26,82,1) 27%, rgba(46,78,158,1) 69%, rgba(14,39,103,1) 100%);
+    background: linear-gradient(45deg, rgba(15,56,158,1) 0%, rgba(4,26,82,1) 27%, rgba(46,78,158,1) 69%, rgba(14,39,103,1) 100%);
+}
+.tab3 {
+    background: rgba(242,133,0,1);
+    background: -moz-linear-gradient(45deg, rgba(242,133,0,1) 0%, rgba(250,151,37,1) 27%, rgba(237,118,14,1) 69%, rgba(242,133,0,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(242,133,0,1)), color-stop(27%, rgba(250,151,37,1)), color-stop(69%, rgba(237,118,14,1)), color-stop(100%, rgba(242,133,0,1)));
+    background: -webkit-linear-gradient(45deg, rgba(242,133,0,1) 0%, rgba(250,151,37,1) 27%, rgba(237,118,14,1) 69%, rgba(242,133,0,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(242,133,0,1) 0%, rgba(250,151,37,1) 27%, rgba(237,118,14,1) 69%, rgba(242,133,0,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(242,133,0,1) 0%, rgba(250,151,37,1) 27%, rgba(237,118,14,1) 69%, rgba(242,133,0,1) 100%);
+    background: linear-gradient(45deg, rgba(242,133,0,1) 0%, rgba(250,151,37,1) 27%, rgba(237,118,14,1) 69%, rgba(242,133,0,1) 100%);
+}
+.tile1, .tile2, .tile3 {
+    text-shadow: 2px 2px black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 6rem;
+}
+.napis1, .napis2, .napis3 {
+    padding: 12px;
+    font-size: 1.3rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 200;
+}
+.napis1 {
+    font-size: 1.35rem;
+}
+.napis2 {
+    font-size: 2.5rem;
+    padding-top: 50px;
+}
+.napis3 {
+    font-size: 1.2rem;
+}
+.description {
+    background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) ), url("../images/color-arrow.jpg");
+    background-position: 20% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    height: 130vh;
+    background-color: #F2F2F2;
+}
+#space {
+    height:5.75vh;
+}
+.control_div, .control_div_2 {
+    display: flex;
+    padding-top: 20px;
+    min-height: 4vh;
+    width: 100%;
+    justify-content: center;
+}
+.control_div_2 {
+    min-height: 40vh;
+    padding-bottom: 10px;
+    display: flex;
+}
+#foto {
+    background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) ), url("../images/apis_biuro1.jpg");
+    background-position: 76% 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    border: 2px solid black;
+    width: 1000px;
+    height: 400px;
+}
+.text {
+    font-family: 'Lato', sans-serif;
+    margin-top: 5px;
+    font-size: 1.65rem;
+    background-color: white;
+    padding: 13px;
+    border: 2px solid black;
+    width: 860px;
+    min-height: 50px;
+    color: black;
+    text-align: justify;
+}
+.contact {
+    height: 145vh;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) ), url("../images/orange-purple.jpg");
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    color: white;
+}
+.number {
+    font-size: 2.75rem;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.adres, .email {
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px;
+}
+.image {
+    height: 180px;
+}
+.trapezoid1, .trapezoid2, .trapezoid3 {
+    height: 1.2vh;
+}
+.trapezoid1 {
+    background-color: #00A00A;
+}
+.trapezoid2 {
+    background-color: #133989;
+}
+.trapezoid3 {
+    background-color: orange;
+}
+#logo_div {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    height: 240px;
+    margin-top: -10px;
+}

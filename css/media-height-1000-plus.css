@@ -1,0 +1,30 @@
+.logo {
+    margin-top: 12vh;
+    height: 270px;
+}
+.number {
+    font-size: 5rem;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.adres, .email {
+    font-size: 2rem;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+}
+.description {
+    height: 125vh;
+}
+.text {
+    font-size: 1.9rem;
+}
+.contact {
+    height: 145vh;
+}
+.first_section {
+    height: 100vh;
+}
